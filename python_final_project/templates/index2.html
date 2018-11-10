@@ -1,0 +1,50 @@
+ <title>Sentiment Analysis</title>
+ <head>
+    <link href="../static/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<style>
+body {
+         background-color: #B99AB5;
+        .box{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+
+        textarea {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+}
+}
+</style>
+
+
+ </head>
+    <body>
+      <div class="container">
+        <h1>Python Final Project: Sentiment Analysis</h1>
+	<h1 style = "color: Maroon">
+        <h3>Enter text here: </h3>
+	<h3 style = "color: #5E0D93">
+
+        <form method="POST" action="/">
+          <textarea title="Review" placeholder="Type here" name="text_area" rows="12"
+            cols="80">{{text_input}}</textarea> <br><br>
+</html>
+          <input type="submit" name="action" value="Analyze" style = "background: #7EC7B4; color: Maroon">
+
+        </form>
+        <div ids= "box">
+        <textarea title="The sentiment of your review is: " name="result_area" rows="2" cols="50"
+         style="background:#EEA214; color:#9E003C;">{{text_output}}</textarea>
+        </div>
+        <br><br>
+        <a href="https://github.com/priyanshin/python_projects/blob/master/Sentiment_Analysis_Source_Code.ipynb"
+         target="_blank">View Source Code</a>
+        <br><br>
+        <a href="https://www.linkedin.com/in/priyanshi-nigam/<" target="_blank">Priyanshi's Linkedin</a>
+      </div>
+    </body>
+</html>
